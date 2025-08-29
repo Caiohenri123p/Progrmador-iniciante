@@ -1,0 +1,49 @@
+# Progrmador-iniciante
+Desenvolvimento de paginas web
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES Universidade</title> 
+</head>
+<body>
+   
+    <table border="0" width="900" align="center">
+
+        <tr>
+            <td><img src="C:\Users\Caio\Downloads\UNES Universidade\img\logo.png"></td>
+            <td align="right">
+               <a href="Home.html">Home</a>
+                <a href="Quem somos.html">Quem somos</a>
+                <a href="Contato.html">Contato</a>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <img src="C:\Users\Caio\Downloads\UNES Universidade\img\capa.png">
+
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h2>Sobre a Universidade</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nam, optio quisquam dignissimos est voluptates officia id quo facilis, debitis modi excepturi distinctio temporibus quis? Molestiae expedita molestias fugit dolores!
+                </p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsa magni repellat eligendi fugit consectetur, cum non veritatis ex ipsam eius dolorem mollitia porro iure nemo illum, culpa libero accusamus.
+                    </p>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos Reservados</h4>
+                
+        </tr>
+    </table>
+    
+</body>
+</html>
