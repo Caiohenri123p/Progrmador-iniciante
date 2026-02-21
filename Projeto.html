@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio do Programador</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-bottom: 2px solid #444;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .nav a:hover {
+            color: #4CAF50;
+        }
+
+        .nav-separator {
+            display: none;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            text-align: center;
+            min-height: 400px;
+        }
+
+        .hero img {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(76, 175, 80, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .hero img:hover {
+            transform: scale(1.05);
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 20px;
+            animation: fadeInScale 1s ease-in-out;
+            letter-spacing: 2px;
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .name-highlight {
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .nav a {
+                font-size: 14px;
+            }
+
+            .logo img {
+                max-width: 80px;
+            }
+
+            .hero {
+                padding: 40px 20px;
+                min-height: 300px;
+            }
+
+            .hero img {
+                max-width: 200px;
+            }
+
+            .name {
+                font-size: 32px;
+                letter-spacing: 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/1000_F_1693752.jpg" alt="Logo">
+            </div>
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <span class="nav-separator">|</span>
+                <a href="Sobre mim.html">Sobre mim</a>
+                <span class="nav-separator">|</span>
+                <a href="projetos.html">Projetos</a>
+                <span class="nav-separator">|</span>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="img/Monogram-TI.jpg" alt="Portfólio Imagem">
+        <h1 class="name">
+            <span class="name-highlight">Caio Henrique</span>
+            <br>
+            da Costa Nery
+        </h1>
+    </section>
+    
+</body>
+</html>
